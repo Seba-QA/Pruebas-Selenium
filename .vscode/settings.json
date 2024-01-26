@@ -1,4 +1,10 @@
 {
+    //Agregados para levantar features
+    "cucumberautocomplete.steps": ["src/test/java/steps/*.java"],
+    "cucumberautocomplete.syncfeatures": "test/features/*.feature",
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "cucumberautocomplete.strictGherkinValidation": true,
+    //por defecto
     "java.compile.nullAnalysis.mode": "automatic",
     "java.configuration.updateBuildConfiguration": "interactive"
 }
